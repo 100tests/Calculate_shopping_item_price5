@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!----  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div>
+            <div class="row">
+                <div>
+                    <h1>Shopping Calculator</h1>
+                    <hr>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+
+        <div>
+            <div class="box"><img class="baddieImage" id="goomba" src="tri.png">
+                <hr>
+                <div class="textInBaddieBobomb textInBaddie">
+                    <p>Coconut</p>
+                    <h6> 8 coins / Coconut</h6>
+                </div>
+            </div>
+            <div class="count">
+                <div class="color">How many Coconuts do you want to purchase?</div>
+                <input class="form-control input" id="bobombInput" type="number">
+                <button class="btn btn-danger btn-custom btn-bobomb">Buy Now</button>
+            </div>
+            <div class="output" id="bobombTotal"></div>
+        </div>
+        <div>
+            <div class="box"><img class="baddieImage" id="goomba" src="first.png">
+                <hr>
+                <div class="textInBaddieGoomba textInBaddie">
+                    <p>Apple</p>
+                    <h6>12 coins / Apple</h6>
+                </div>
+            </div>
+            <div class="count">
+                <div class="color">How many Apples do you want to purchase?</div>
+                <input class="form-control input" id="goombaNum" type="number">
+                <button class="btn btn-danger btn-custom btn-goomba">Buy now</button>
+            </div>
+            <div class="output" id="goombaTotal"></div>
+        </div>
+
+        <div>
+            <div class="box"><img class="baddieImage" id="cheep" src="sec.png">
+                <hr>
+                <div class="textInBaddie textInBaddieCheep">
+                    <p>Orange</p>
+                    <h6 class="bottom">11 coins / Orange</h6>
+                </div>
+            </div>
+            <div class="count">
+                <div class="color">How many Oranges do you want to purchase?</div>
+                <input class="form-control input" id="cheepsInput" type="number">
+                <button class="btn btn-danger btn-custom btn-cheep">Buy Now</button>
+            </div>
+            <div class="output" id="cheepTotal"></div>
+        </div>
+
+    </div>
+    <hr>
+    </div>
+    <div class="row">
+        <div id="fullTotal">
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
